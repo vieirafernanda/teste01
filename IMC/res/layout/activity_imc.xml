@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".ImcActivity" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="30dip"
+        android:text="@string/tv_peso" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/edtPeso"
+            android:layout_width="100dp"
+            android:layout_height="50dip"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dip"
+            android:text="kg" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="30dip"
+        android:text="@string/tv_altura" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/edtAltura"
+            android:layout_width="100dp"
+            android:layout_height="50dip"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dip"
+            android:text="m" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/cbFemnino"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cb_feminino" />
+
+        <CheckBox
+            android:id="@+id/cbMasculino"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cb_masculino" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtResultado"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btCalculat"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:layout_gravity="center_horizontal"
+        android:hint="Este botão realiza o cálculo"
+        android:text="@string/bt_calcular" />
+
+</LinearLayout>

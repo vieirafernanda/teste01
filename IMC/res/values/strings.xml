@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IMC</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="tv_peso">Peso:(*)</string>
+    <string name="tv_altura">Altura:(*)</string>
+    <string name="bt_calcular">CALCULAR</string>
+    <string name="cb_feminino">Feminino</string>
+    <string name="cb_masculino">Masculino</string>
+    
+    
+</resources>
